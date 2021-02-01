@@ -1,13 +1,5 @@
 import React, { useEffect } from 'react';
-import {
-  Button,
-  Row,
-  Col,
-  ListGroup,
-  Image,
-  Cart,
-  Card,
-} from 'react-bootstrap';
+import { Button, Row, Col, ListGroup, Image, Card } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import Message from '../components/Message';
 import CheckoutSteps from '../components/CheckoutSteps';
